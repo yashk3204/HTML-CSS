@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Forms</title>
+    </head>
+
+    <body>
+
+        <form action="http://www.example.com/subscribe.php" method="get">
+
+            <!-- Taking input -->
+            <p>Username:
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+
+            <!-- Text Area -->
+            <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+
+            <!-- Radio Button -->
+            <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" /> Pop
+            <input type="radio" name="genre" value="jazz" /> Jazz
+            </p>
+
+            <!-- Checkbox -->
+            <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+            </p>
+
+            <!-- Dropdown -->
+            <p>What device do you listen to music on?</p>
+            <select name="devices">
+             <option value="ipod">iPod</option>
+             <option value="radio">Radio</option>
+             <option value="computer">Computer</option>
+            </select>
+
+            <!-- Multiple Select -->
+            <p>Do you play any of the following instruments?</p>
+               <select name="instruments" size="3" multiple="multiple">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard" selected="selected">Keyboard</option>
+                <option value="bass">Bass</option>
+               </select>
+            
+            <!-- File Input -->
+            <p>Upload your song in MP3 format:</p>
+            <input type="file" name="user-song" /><br />
+            <input type="submit" value="Upload" />
+            
+            <!-- Submit Button -->
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email" />
+            <input type="submit" name="subscribe" value="Subscribe" />
+
+            <!-- Labels -->
+            <label>Age: <input type="text" name="age" /></label>
+            <br/ >
+            Gender:
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">Male</label>
+
+        </form>
+
+    </body>
+
+</html>
