@@ -62,16 +62,52 @@
             <!-- Submit Button -->
             <p>Subscribe to our email list:</p>
             <input type="text" name="email" />
-            <input type="submit" name="subscribe" value="Subscribe" />
+            <input type="submit" name="subscribe" value="Subscribe" /><br><br>
 
             <!-- Labels -->
             <label>Age: <input type="text" name="age" /></label>
-            <br/ >
+            <br><br>
             Gender:
             <input id="female" type="radio" name="gender" value="f">
             <label for="female">Female</label>
             <input id="male" type="radio" name="gender" value="m">
-            <label for="male">Male</label>
+            <label for="male">Male</label><br><br>
+
+            <!-- Grouping of Elements -->
+            <fieldset>
+                <legend>Contact details</legend>
+                <label>Email:<br />
+                <input type="text" name="email" /></label><br />
+                <label>Mobile:<br />
+                <input type="text" name="mobile" /></label><br />
+                <label>Telephone:<br />
+                <input type="text" name="telephone" /></label>
+                </fieldset><br>
+            
+            <!-- Form Validation -->
+            <label for="username">Username:</label>
+            <input type="text" name="username" required="required" /></title><br />
+            <label for="password">Password:</label>
+            <input type="password" name="password" required="required" />
+            <input type="submit" value="Submit" /><br>
+
+            <!-- Date Input -->
+            <label for="username">Departure date:</label>
+            <input type="date" name="depart" />
+            <input type="submit" value="Submit" />
+
+            <!-- E-Mail and URL input -->
+            <p>Please enter your email address:</p>
+            <input type="email" name="email" />
+            <input type="submit" value="Submit" />
+            <p>Please enter your website address:</p>
+            <input type="url" name="website" />
+            <input type="submit" value="Submit" />
+
+            <!-- Search Input -->
+            <p>Search:</p>
+            <input type="search" name="search" />
+            <input type="submit" value="Search" />
 
         </form>
 
