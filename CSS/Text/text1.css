@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia, Times, serif;
+    font-size: 16px;}
+h1, h2 {
+    font-family: Arial, Verdana, sans-serif;}
+.credits {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    word-spacing: 0.5em;
+    text-align: right;
+}
+h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-indent: 20px;} /* Indent specifies the space between the margin and the element. */
+/* text-transform: capitalize causes the first letter of each word to appear capitalized. */
+h2 {
+    font-size: 1.3em;}
+p {
+    line-height: 1.4em;
+    text-align: justify;}
+p.lorem{
+    background-color: #cccccc;
+    color: #ffffff;
+    text-shadow: 2px 2px 7px #111111;
+}
+p.lorem:first-letter {
+    font-size: 200%;}
+    
+
+/* 
+
+@font-face allows you to use a font, even if it is not installed on the computer of the person browsing, by allowing you to
+   specify a path to a copy of the font, which will be downloaded if it is not on the user's machine. Example:
+        @font-face { font-family: 'ChunkFiveRegular'; 
+                     src: url('fonts/chunkfive.eot'); }
+
+The vertical-align is commonly used with inline elements such as <img>, <em>, or <strong> elements. The values it can take are 
+baseline, sub, super, top, text-top, middle, bottom, text-bottom.   

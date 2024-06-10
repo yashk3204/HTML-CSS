@@ -1,0 +1,28 @@
+/* color name */
+h1 {
+    color: DarkCyan;}
+/* hex code */
+h2 {
+    color: #ee3e80;}
+/* rgb value */
+p {
+    color: rgb(100,100,90);}
+
+/* background color */
+body {
+    background-color: rgb(200,200,200);}
+h1 {
+    background-color: yellow;}
+h2 {
+    background-color: green;}
+p {
+    background-color: white;}
+
+/* 
+1. The opacity property allows you to specify the opacity of an element and any of its child elements. The value is a number between
+   0.0 and 1.0 (so a value of 0.5 is 50% opacity and 0.15 is 15% opacity).
+2. RGB property: Values for red, green, and blue are expressed as numbers between 0 and 255. Example: rgb(102,28, 90).
+3. The rgba property adds a fourth parameter for opacity.
+4. The hsl property takes 3 parameters for hue, saturation and lightness.
+5. The hsla property takes a fourth parameter for transparency (value between 0 and 1).
+*/

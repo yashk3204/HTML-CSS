@@ -1,0 +1,13 @@
+ol {
+    list-style-type: lower-roman;}
+
+ul {
+    width: 150px;
+    list-style: inside circle;
+}
+li {
+    margin: 10px;}
+ul.illuminations {
+    list-style-position: outside;}
+ul.season {
+    list-style-position: inside;}  /* inside: The marker sits inside the box of text (which is indented). */

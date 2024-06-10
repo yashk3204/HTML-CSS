@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+p.one {
+    border-style: solid;
+    border-width: 2px;}
+p.two {
+    border-width: thick;
+    border-style: dotted;}
+p.three {
+    border-width: 1px 4px 6px 4px;
+    border-style: dashed;}
+p.four {
+    border-style: double;
+    border-color: #0088dd;}
+p.five {
+    border-style: groove;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;}
+p.six {
+    border-style: ridge;
+    padding: 10px;}
+p.seven {
+    border-style: inset;
+    margin: 20px;} /* We can also specify margin-top, margin-bottom, margin-left, margin-right separately. */
+p.eight {
+    border-style: outset;
+    text-align: left;}
